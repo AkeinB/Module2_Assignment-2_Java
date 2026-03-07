@@ -26,6 +26,6 @@ public class SalesRep {
     }
 
     public void Display(){
-        System.out.println("the allowance for Sale Reps is " + this.Allowance);
+        System.out.println("Sale Reps Allowance: " + this.Allowance);
     }
 }
