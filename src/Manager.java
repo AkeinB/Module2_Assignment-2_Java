@@ -26,6 +26,6 @@ public class Manager {
     }
 
     public void Display(){
-        System.out.println("Manger Bonus: " + this.Bonus);
+        System.out.println("Manger Bonus: $" + this.Bonus);
     }
 }
