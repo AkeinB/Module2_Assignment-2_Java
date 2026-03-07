@@ -2,7 +2,7 @@
     Zhane Tomlin #
     Chevar Prince #
     Ryan Brown #
-    Goergia Black #1817002195
+    Georgia Black #1817002195
 */
 
 void main() {
