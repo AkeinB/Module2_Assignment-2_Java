@@ -6,11 +6,11 @@
 */
 
 
-public class StaffMembers {
-    private  String FirstName;
-    private String LastName;
-    private String DeptNumber;
-    private double HoursWorked;
+public abstract class StaffMembers {
+    protected String FirstName;
+    protected String LastName;
+    protected String DeptNumber;
+    protected double HoursWorked;
 
 //===========Parameterized Constructor==========================
     public StaffMembers(String FirstName, String LastName, String DeptNumber, double HoursWorked) {

@@ -6,12 +6,13 @@
 */
 
 
-public class SalesRep {
+public class SalesRep extends StaffMembers{
 
     private double Allowance;
 
 //    ================PARAMETERIZED CONSTRUCTOR===========
-    public SalesRep(double Allowance) {
+    public SalesRep(String FirstName, String LastName, String DeptNumber, double HoursWorked, double Allowance) {
+        super(FirstName,LastName,DeptNumber,HoursWorked);// calls parent constructor
         this.Allowance = Allowance;
     }
 

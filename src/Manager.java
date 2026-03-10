@@ -6,12 +6,13 @@
 */
 
 
-public class Manager {
+public class Manager extends StaffMembers{
 
     private double Bonus;
 
 // ============PARAMETERIZED CONSTRUCTOR==========
-    public Manager(double Bonus) {
+    public Manager(String FirstName, String LastName, String DeptNumber, double HoursWorked, double Bonus) {
+        super(FirstName, LastName,DeptNumber,HoursWorked); // calls parent constructor
         this.Bonus = Bonus;
     }
 
