@@ -63,4 +63,11 @@ public abstract class StaffMembers {
     public double GetHoursWorked() {
         return this.HoursWorked;
     }
+
+//    ====================METHODS======================
+    public void Display(){
+        System.out.println("Employee Name:" + FirstName + " " + LastName);
+        System.out.println(" Department Number: " + DeptNumber);
+        System.out.println(" Hours Worked: " + HoursWorked);
+    }
 }

@@ -26,7 +26,11 @@ public class SalesRep extends StaffMembers{
         return this.Allowance;
     }
 
+    @Override
     public void Display(){
-        System.out.println("Sale Reps Allowance: $" + this.Allowance);
+        System.out.println("Employee Name:" + FirstName + " " + LastName);
+        System.out.println(" Department Number: " + DeptNumber);
+        System.out.println(" Hours Worked: " + HoursWorked);
+        System.out.println("Allowance: $" + Allowance);
     }
 }

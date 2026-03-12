@@ -26,7 +26,11 @@ public class Manager extends StaffMembers{
         return this.Bonus;
     }
 
+    @Override
     public void Display(){
-        System.out.println("Manger Bonus: $" + this.Bonus);
+        System.out.println("Employee Name:" + FirstName + " " + LastName);
+        System.out.println(" Department Number: " + DeptNumber);
+        System.out.println(" Hours Worked: " + HoursWorked);
+        System.out.println("Bonus: $" + this.Bonus);
     }
 }
