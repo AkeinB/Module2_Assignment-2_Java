@@ -33,4 +33,6 @@ public class SalesRep extends StaffMembers{
         System.out.println(" Hours Worked: " + HoursWorked);
         System.out.println("Allowance: $" + Allowance);
     }
+
+    /*Create Method for CalculateSalary here. implement the appropriate formula for the subclass */
 }

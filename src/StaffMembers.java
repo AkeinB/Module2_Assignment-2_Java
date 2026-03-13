@@ -70,4 +70,8 @@ public abstract class StaffMembers {
         System.out.println(" Department Number: " + DeptNumber);
         System.out.println(" Hours Worked: " + HoursWorked);
     }
+
+
+    public abstract double CalculateSalary(); //abstract method (DO NOT TOUCH, SHOULD BE EMPTY)
+
 }

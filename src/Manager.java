@@ -33,4 +33,6 @@ public class Manager extends StaffMembers{
         System.out.println(" Hours Worked: " + HoursWorked);
         System.out.println("Bonus: $" + this.Bonus);
     }
+
+    /*Create Method for CalculateSalary here. implement the appropriate formula for the subclass */
 }
