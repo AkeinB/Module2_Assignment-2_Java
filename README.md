@@ -17,3 +17,5 @@ It focuses on building a Payroll Management System in Java, applying Object-Orie
   - [x] ArrayList to manage multiple Sales Representatives
   - [x] Export payroll results to Paystubs.txt
 
+  ***********
+  Lecturer: Doron Williams
