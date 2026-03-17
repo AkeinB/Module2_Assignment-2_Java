@@ -45,6 +45,7 @@ public class SalesRep extends StaffMembers{
     }
 
     /*Create Method for CalculateSalary here. implement the appropriate formula for the subclass */
+    @Override
     public double CalculateSalary()
     {
         SalesRepSalary = (HoursWorked * 1500) + Allowance;

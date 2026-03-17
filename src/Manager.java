@@ -41,9 +41,10 @@ public class Manager extends StaffMembers{
         System.out.println("Employee Name:" + FirstName + " " + LastName);
         System.out.println(" Department Number: " + DeptNumber);
         System.out.println(" Hours Worked: " + HoursWorked);
-        System.out.println("Bonus: $" + this.Bonus);
+        System.out.println("Bonus: $" + Bonus);
     }
 
+    @Override
     public double CalculateSalary()
     {
         ManagerSalary = (HoursWorked *2500) + Bonus;
