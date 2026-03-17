@@ -2,18 +2,21 @@
     Zhane Tomlin #
     Chevar Prince #
     Ryan Brown #
-    Georgia Black #1817002195
+    Georgia Black Golding #1817002195
 */
 
 
 public class Manager extends StaffMembers{
 
     private double Bonus;
+    private double ManagerSalary;
 
-// ============PARAMETERIZED CONSTRUCTOR==========
-    public Manager(String FirstName, String LastName, String DeptNumber, double HoursWorked, double Bonus) {
+    // ============PARAMETERIZED CONSTRUCTOR==========
+    public Manager(String FirstName, String LastName, String DeptNumber,
+                   double HoursWorked, double Bonus , double ManagerSalary) {
         super(FirstName, LastName,DeptNumber,HoursWorked); // calls parent constructor
         this.Bonus = Bonus;
+        this.ManagerSalary = ManagerSalary;
     }
 
 //    SETTER
@@ -34,5 +37,9 @@ public class Manager extends StaffMembers{
         System.out.println("Bonus: $" + this.Bonus);
     }
 
-    /*Create Method for CalculateSalary here. implement the appropriate formula for the subclass */
+    public double CalculateSalary()
+    {
+        ManagerSalary = (HoursWorked *2500) + Bonus;
+        return ManagerSalary;
+    }
 }
