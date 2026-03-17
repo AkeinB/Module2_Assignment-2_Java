@@ -5,7 +5,7 @@
     Georgia Black #1817002195
 */
 
-import java.util.ArrayList; // Import the ArrayList class
+import java.util.ArrayList;
 
 public class Payroll {
     public static void main(String[] args){
