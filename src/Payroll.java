@@ -2,7 +2,7 @@
     Zhane Tomlin #
     Chevar Prince #
     Ryan Brown #
-    Georgia Black #1817002195
+    Georgia Black Golding #1817002195
 */
 
 import java.util.ArrayList;
