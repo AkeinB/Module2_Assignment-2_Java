@@ -8,14 +8,12 @@
 public class SalesRep extends StaffMembers{
 
     private double Allowance;
-    private double SalesRepSalary;
 
     //    ================PARAMETERIZED CONSTRUCTOR===========
     public SalesRep(String FirstName, String LastName, String DeptNumber,
-                    double HoursWorked, double Allowance, double SalesRepSalary) {
+                    double HoursWorked, double Allowance) {
         super(FirstName,LastName,DeptNumber,HoursWorked);// calls parent constructor
         this.Allowance = Allowance;
-        this.SalesRepSalary = SalesRepSalary;
     }
 
     //    SETTER
@@ -23,18 +21,11 @@ public class SalesRep extends StaffMembers{
         this.Allowance = Allowance;
     }
 
-    public void setSalesRepSalary(double SalesRepSalary) {
-        this.SalesRepSalary = SalesRepSalary;
-    }
-
     //    GETTER
     public double getAllowance() {
         return this.Allowance;
     }
 
-    public double GetSalesRepSalary() {
-        return this.SalesRepSalary;
-    }
 
     @Override
     public void Display(){
@@ -48,7 +39,7 @@ public class SalesRep extends StaffMembers{
     @Override
     public double CalculateSalary()
     {
-        SalesRepSalary = (HoursWorked * 1500) + Allowance;
-        return SalesRepSalary;
+        return (HoursWorked * 1500) + Allowance;
+
     }
 }

@@ -9,14 +9,12 @@
 public class Manager extends StaffMembers{
 
     private double Bonus;
-    private double ManagerSalary;
 
     // ============PARAMETERIZED CONSTRUCTOR==========
     public Manager(String FirstName, String LastName, String DeptNumber,
-                   double HoursWorked, double Bonus , double ManagerSalary) {
+                   double HoursWorked, double Bonus) {
         super(FirstName, LastName,DeptNumber,HoursWorked); // calls parent constructor
         this.Bonus = Bonus;
-        this.ManagerSalary = ManagerSalary;
     }
 
     //    SETTER
@@ -24,16 +22,9 @@ public class Manager extends StaffMembers{
         this.Bonus = Bonus;
     }
 
-    public void setManagerSalary(double ManagerSalary) {
-        this.ManagerSalary = ManagerSalary;
-    }
-
     //    GETTER
     public double getBonus() {
         return this.Bonus;
-    }
-    public double GetManagerSalary() {
-        return this.ManagerSalary;
     }
 
     @Override
@@ -47,7 +38,6 @@ public class Manager extends StaffMembers{
     @Override
     public double CalculateSalary()
     {
-        ManagerSalary = (HoursWorked *2500) + Bonus;
-        return ManagerSalary;
+         return (HoursWorked *2500) + Bonus;
     }
 }
